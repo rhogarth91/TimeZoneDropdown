@@ -1,13 +1,15 @@
 function showSelectedCountry(event) {
   if (event.target.value.length > 0) {
     if (event.target.value === "paris") {
-      alert(`It is ${parisTime}`);
+      alert(`It is ${parisTime} in Europe/Paris`);
     }
     {
-      if (event.target.value === "tokyo") alert(`It is ${tokyoTime}`);
+      if (event.target.value === "tokyo")
+        alert(`It is ${tokyoTime} in Asia/Tokyo`);
     }
     {
-      if (event.target.value === "sydney") alert(`It is ${sydneyTime}`);
+      if (event.target.value === "sydney")
+        alert(`It is ${sydneyTime} in Australia/Sydney`);
     }
   }
 }
